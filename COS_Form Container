@@ -1,29 +1,20 @@
+<div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
+<div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title" dir="ltr">Thank you for joining the COS Grassroots Roundtable!</h1>
 
 
-<form action="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-
-<!-- BEGIN LIST OF ITEMS -->
-<ol role="list" class="ss-question-list" style="padding-left: 0">
-
-<!-- First Name -->
+<div class="ss-required-asterisk" aria-hidden="true">* Required</div></div></div>
+<div class="ss-form"><form action="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
 <div class="ss-form-question errorbox-good" role="listitem">
-	<div dir="auto" class="ss-item ss-item-required ss-text">
-		<div class="ss-form-entry">
-
-<label class="ss-q-item-label" for="entry_571870197">
-	<div class="ss-q-title">First Name<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-		<span class="ss-required-asterisk" aria-hidden="true">*</span>
-	</div>
+<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_571870197"><div class="ss-q-title">First Name
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
 <input type="text" name="entry.571870197" value="" class="ss-q-short" id="entry_571870197" dir="auto" aria-label="First Name  " aria-required="true" required="" title="">
 <div class="error-message" id="546059944_errorMessage"></div>
 <div class="required-message">This is a required question</div>
-
-<!-- Last Name -->
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-
-
 <label class="ss-q-item-label" for="entry_1391185013"><div class="ss-q-title">Last Name
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
@@ -31,11 +22,8 @@
 <input type="text" name="entry.1391185013" value="" class="ss-q-short" id="entry_1391185013" dir="auto" aria-label="Last Name  " aria-required="true" required="" title="">
 <div class="error-message" id="269508636_errorMessage"></div>
 <div class="required-message">This is a required question</div>
-</div></div></div>
-
-<!-- Last Name -->
-<div class="ss-form-question errorbox-good" role="listitem">
-	<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_2125093036"><div class="ss-q-title">Title
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
@@ -80,6 +68,19 @@
 
 <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
 <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
+</tr></tbody></table></div></ol></form></div>
+<div class="ss-footer"><div class="ss-attribution"></div>
+<div class="ss-legal"><div class="disclaimer-separator"></div>
+<div class="disclaimer" dir="ltr"><div class="powered-by-logo"><span class="powered-by-text">Powered by</span>
+<a href="https://www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms"><div class="ss-logo-container ss-logo-css-container"><div class="ss-logo-image"></div>
+<span class="aria-only-help">Google Forms</span></div></a></div>
+<div class="ss-terms"><span class="disclaimer-msg">This content is neither created nor endorsed by Google.</span>
+<br>
+<a href="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/reportabuse?source=https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/viewform">Report Abuse</a>
+-
+<a href="http://www.google.com/accounts/TOS">Terms of Service</a>
+-
+<a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
 
-</td>
-</tr></tbody></table></div></ol></form>
+<div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic="" aria-relevant="additions">Screen reader support enabled. </div></div>
