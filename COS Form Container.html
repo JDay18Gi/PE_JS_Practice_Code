@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <div id="COS-form" style="width:100%">
 <head>
 <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk2.png" type="image/x-icon">
@@ -66,7 +68,7 @@ body {
   font-size: 1.000rem;
 }
 
-body {
+#COS-form body {
   font-family: "Roboto";
   color: rgb(119,119,119);
   font-weight: 400;
@@ -214,19 +216,19 @@ body {
   font-style: normal;
 }
 
-a:link {
+#COS-form a:link {
   color: rgb(0,0,238);
 }
 
-a:visited {
+#COS-form a:visited {
   color: rgb(85,26,139);
 }
 
-a:active {
+#COS-form a:active {
   color: rgb(252,0,0);
 }
 
-input[type='text'], input:not([type]), textarea {
+#COS-form input[type='text'], input:not([type]), textarea {
   font-size: 1.000rem;
 }
 
@@ -245,7 +247,7 @@ input[type='text'], input:not([type]), textarea {
   height: 21px;
 }
 
-h1 {
+#COS-form h1 {
 	font-size: 2rem;
 	letter-spacing: 1.5px;
 	padding: 1%;
@@ -291,6 +293,14 @@ h1 {
 }
 
 #docs-aria-speakable {
+	display: none;
+}
+
+em {
+	color: rgb(196,59,29);
+}
+
+.ss-required-asterisk {
 	display: none;
 }
 
@@ -341,6 +351,7 @@ h1 {
 <link rel="alternate" type="text/xml+oembed" href="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/oembed?url=https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/viewform&amp;format=xml">
 <meta property="og:title" content="Thank you for joining the COS Grassroots Roundtable!"><meta property="og:type" content="article"><meta property="og:site_name" content="Google Docs"><meta property="og:url" content="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/viewform?usp=embed_facebook"><meta name="twitter:card" content="player"><meta name="twitter:title" content="Thank you for joining the COS Grassroots Roundtable!"><meta name="twitter:url" content="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/viewform?usp=embed_twitter"><meta name="twitter:player" content="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/viewform?embedded=true&amp;usp=embed_twitter"><meta name="twitter:description" content="Google Drive"><meta name="twitter:site" content="@googledocs">
 </head>
+
 <body dir="ltr" class="ss-base-body"><div itemscope="" itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="Thank you for joining the COS Grassroots Roundtable!">
 
 
@@ -359,7 +370,7 @@ h1 {
 <div class="ss-form"><form action="https://docs.google.com/forms/d/1-54gSpwspON2v4hAp0e8qandXJhlU79PakclpcvQtmw/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
 <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_571870197"><div class="ss-q-title">First Name
+<label class="ss-q-item-label" for="entry_571870197"><div class="ss-q-title">First Name <em>*</em>
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
@@ -368,7 +379,7 @@ h1 {
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_1391185013"><div class="ss-q-title">Last Name
+<label class="ss-q-item-label" for="entry_1391185013"><div class="ss-q-title">Last Name <em>*</em>
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
@@ -377,7 +388,7 @@ h1 {
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_2125093036"><div class="ss-q-title">Title
+<label class="ss-q-item-label" for="entry_2125093036"><div class="ss-q-title">Title <em>*</em>
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
@@ -386,7 +397,7 @@ h1 {
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_991178216"><div class="ss-q-title">Organization
+<label class="ss-q-item-label" for="entry_991178216"><div class="ss-q-title">Organization <em>*</em>
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
@@ -395,7 +406,7 @@ h1 {
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_70890658"><div class="ss-q-title">E-mail Address
+<label class="ss-q-item-label" for="entry_70890658"><div class="ss-q-title">E-mail Address <em>*</em>
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
@@ -404,7 +415,7 @@ h1 {
 <div class="required-message">This is a required question</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_1260414870"><div class="ss-q-title">Phone #
+<label class="ss-q-item-label" for="entry_1260414870"><div class="ss-q-title">Phone # <em>*</em>
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="auto">000-000-0000</div></label>
@@ -421,7 +432,6 @@ h1 {
 
 <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
 <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
-<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
 </tr></tbody></table></div></ol></form></div>
 <div class="ss-footer"><div class="ss-attribution"></div>
 <div class="ss-legal"><div class="disclaimer-separator"></div>
